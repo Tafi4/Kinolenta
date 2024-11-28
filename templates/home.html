@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="header main-header">
+        <!-- бургерное меню для ТЕЛ -->
+            <div class="burger-menu">
+                <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                <label for="burger-checkbox" class="burger"></label>
+
+                <ul class="menu-list">
+                    <li><div class="burger-logo"> <img src="static/css/Логотип.svg" alt="Logo"> </div></li>
+                    <li><a href="#about-link" class="menu-item">О нас</a></li>
+                    <li><a href="#catalog-link" class="menu-item">Католог</a></li>
+                    <li><a href="#pay-link" class="menu-item">Доставка и оплата</a></li>
+                    <li><a href="#contact-link" class="menu-item">Контакты</a></li>
+                    <li><a href="#partner-link" class="menu-item">Наши партнеры</a></li>
+                    <br>
+                    <br>
+                    <br>
+                    <li> <div class="burger-location">  <p>г. Воронеж<br>Петровская Набережная, 11</p> </div></li>
+                    <br>
+                    <li> <div class="burger-contact">
+                            <p>+7 (777) 777-77-77</p>
+                        </div>
+                    </li>
+                    <li> <div class="burger-social-links">
+                            <a href="#"><img src="static/css/social/burger-instagram.svg" alt="Instagram"></a>
+                            <a href="#"><img src="static/css/social/burger-telegram.svg" alt="WhatsApp"></a>
+                            <a href="#"><img src="static/css/social/burger-whatsapp.svg" alt="Telegram"></a>
+                        </div>
+                    </li>
+                    <br>
+                    <li> <div class="burger-order-button"> <a href="#">сделать заказ</a> </div></li>
+                </ul>
+            </div>
+        <div class="top-bar">
+
+            <!-- меню для ПК  -->
+
+                <div class = "location-social">
+                    <div class="location">
+                        <p>г. Воронеж<br>Петровская Набережная, 11</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><img src="static/css/social/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="static/css/social/whatsapp.svg" alt="WhatsApp"></a>
+                        <a href="#"><img src="static/css/social/telegram.svg" alt="Telegram"></a>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href ="/"><img src="static/css/Логотип.svg" alt="Logo" ></a>
+                </div>
+                <div class="contact">
+                    <p>+7 (777) 777-77-77</p>
+                    <p>Режим 11:00 - 23:00</p>
+                </div>
+                <div class="order-button">
+                    <a href="#">сделать заказ</a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about-link">О нас</a></li>
+                    <li><a href="#catalog-link">Каталог</a></li>
+                    <li><a href="#pay-link">Доставка и оплата</a></li>
+                    <li><a href="#contact-link">Контакты</a></li>
+                    <li><a href="#partner-link">Наши партнеры</a><li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <div class="placeholder">
+            <p>фото заведения и какой-нибудь текст</p>
+        </div>
+    </main>
+
+    <div class="about_me">
+        <h1 id="about-link"> ООО "СК Алания" </h1>
+        <p> ООО "СК Алания" – это современная, динамично развивающаяся компания, ставшая надежным поставщиком качественной продукции для наших партнеров и клиентов. Мы с особым вниманием подбираем ассортимент, обеспечивая широкий выбор сертифицированных товаров, которые соответствуют высоким стандартам качества и безопасности, при этом оставаясь доступными по цене.</p>
+        <p> Наш ассортимент включает минеральные и горные воды, лимонады, соки, газированные напитки, компоты и нектары, а также пиво и сидр, изготовленные из натуральных ингредиентов. Мы также предлагаем продукты питания: пельмени, варенья, джемы и маринованные овощи — всё, что сделает ваш стол разнообразным и полезным.</p>
+        <p> В ООО "СК Алания" мы ориентированы на качество и стабильность, стремясь предложить лучшее, что есть на рынке.</p>
+    </div>
+
+    <div class="catalog-text"> <h1 id="catalog-link"> Каталог нашей продукции </h1> </div>
+        <div class="catalog-first">
+            <a href="water" class="catalog-first-menu-item">Вода</a>
+            <a href="#" class="catalog-first-menu-item">Сладкие напитки</a>
+            <a href="#" class="catalog-first-menu-item">Сидры</a>
+            <a href="#" class="catalog-first-menu-item">Компоты</a>
+            <a href="#" class="catalog-first-menu-item">Соки</a>
+            <a href="#" class="catalog-first-menu-item">Чаи</a>
+            <a href="#" class="catalog-first-menu-item">Энергетики</a>
+            <a href="#" class="catalog-first-menu-item">Пиво</a>
+            <a href="#" class="catalog-first-menu-item">Шампанское</a>
+            <a href="#" class="catalog-first-menu-item">Варенья</a>
+            <a href="#" class="catalog-first-menu-item">Джемы</a>
+            <a href="#" class="catalog-first-menu-item">Огурцы и Помидоры</a>
+            <a href="#" class="catalog-first-menu-item">Соленья</a>
+            <a href="#" class="catalog-first-menu-item">Соусы</a>
+            <a href="#" class="catalog-first-menu-item">Сосиски</a>
+            <a href="#" class="catalog-first-menu-item">Сардельки</a>
+            <a href="#" class="catalog-first-menu-item">Колбаса</a>
+            <a href="#" class="catalog-first-menu-item">Ветчина</a>
+            <a href="#" class="catalog-first-menu-item">Сыры</a>
+            <a href="#" class="catalog-first-menu-item">Пельмени</a>
+            <a href="#" class="catalog-first-menu-item">Мясо</a>
+        </div>
+
+
+<div class="pay" id="pay-link">
+    <h1>Доставка и оплата</h1>
+
+    <div class="steps-container">
+        <div class="step">
+            <div class="step-number">
+                <img src="static\css\pay-img\Phone.svg" alt="Иконка доставки">
+            </div>
+            <h3>Приём заказов</h3>
+            <p>Телефон для приёма заказов: <a href="tel:+77777777777">+7(777)777-77-77</a> </p>
+            <br>
+            <p>Прием заказов с 9:00 до 22:00, без выходных</p>
+            <br>
+            <p>Время доставки с 10:30 до 23:00, без выходных</p>
+        </div>
+
+        <div class="step">
+            <div class="step-number">
+                <img src="static\css\pay-img\Deliviry.svg" alt="Иконка стоимости">
+            </div>
+            <h3>Доставка</h3>
+            <p> Стоимость доставки от 100 до 250 рублей<br> <br>
+                Минимальная сумма заказа 800 руб<br> <br>
+                Доставка за город и в отдаленные районы города платная<br><br></p>
+                <b>Информацию о стоимости доставки уточняйте по телефону у оператора</b>
+        </div>
+
+        <div class="step">
+            <div class="step-number">
+                <img src="static\css\pay-img\Pay.svg" alt="Иконка оплаты">
+            </div>
+            <h3>Оплата</h3>
+            <p>Оплатить заказ можно несколькими способами:</p>
+            <ul class="payment-methods">
+                <li>Наличными курьеру</li>
+                <li>Картой курьеру</li>
+                <li>Предварительным переводом на карту</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<section class="contact-section" id="contact-link">
+    <h1> Наши контакты </h1>
+
+    <!-- Контейнер для карточки и карты -->
+    <div class="contact-container">
+        <div class="contact-card">
+            <div class="contact-item">
+                <img src="static\css\contacts\Place.svg" alt="Адрес" class="icon">
+                <div>
+                    <p>г. Воронеж</p>
+                    <p><strong>Петровская Набережная, 11</strong></p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <img src="static\css\contacts\Phone.svg" alt="Телефон" class="icon">
+                <div>
+                    <p>Телефон</p>
+                    <p><strong><a href="tel:+77777777777" >+7 (777) 777-77-77</a></strong></p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <img src="static\css\contacts\Date_time.svg" alt="Режим работы" class="icon">
+                <div>
+                    <p>Режим работы магазина</p>
+                    <p><strong>Пн-Вс, 11:00-23:00</strong></p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <img src="static\css\contacts\Date_time.svg" alt="Режим работы доставки" class="icon">
+                <div>
+                    <p>Режим работы доставки</p>
+                    <p><strong>Пн-Вс, 09:00-23:00</strong></p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <img src="static\css\contacts\mail.svg" alt="Email" class="icon">
+                <div>
+                    <p>E-mail</p>
+                    <p><strong><a href="mailto:kinolenta@mail.ru">kinolenta@mail.ru</a></strong></p>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="static/css/social/instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="static/css/social/telegram.svg" alt="WhatsApp"></a>
+                <a href="#"><img src="static/css/social/whatsapp.svg" alt="Telegram"></a>
+            </div>
+        </div>
+
+
+        <!-- Карта -->
+
+            <div class="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Abe69b4c88a9fd6d9be72a859ee7392978c0be768e416c2206e5d3003bb5b7ace&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+
+        <div class="requisites">
+            <p><strong>Реквизиты</strong></p>
+            <p>ИП Тамаева Алена Феликсовна</p>
+            <p>ИНН 366408289700</p>
+            <p>ОГРН 308366827300101</p>
+        </div>
+    </div>
+</section>
+
+<div class="partners-section" id="partner-link">
+    <h1>Наши партнеры</h1>
+    <div class="partners-grid">
+        <div class="partner"><img src="static/css/Partners/AguAlania.svg" alt="Кармадон"></div>
+        <div class="partner"><img src="static/css/Partners/Alanski_lednik.svg" alt="Grani"></div>
+        <div class="partner"><img src="static/css/Partners/Bavaria.svg" alt="Партнёр 3"></div>
+        <div class="partner"><img src="static/css/Partners/Berdinberg.svg" alt="Партнёр 4"></div>
+        <div class="partner"><img src="static/css/Partners/Grani.svg" alt="Партнёр 5"></div>
+        <div class="partner"><img src="static/css/Partners/Karmadon.svg" alt="Партнёр 6"></div>
+        <div class="partner"><img src="static/css/Partners/Kohevniki.svg" alt="Партнёр 7"></div>
+        <div class="partner"><img src="static/css/Partners/Lezgor.svg" alt="Партнёр 8"></div>
+        <div class="partner"><img src="static/css/Partners/VitaminOS.svg" alt="Партнёр 9"></div>
+        <div class="partner"><img src="static/css/Partners/Delikat.svg" alt="Партнёр 10"></div>
+    </div>
+</div>
+
+</body>
+</html>

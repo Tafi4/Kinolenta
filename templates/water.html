@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вода</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="header main-header">
+        <!-- бургерное меню для ТЕЛ -->
+            <div class="burger-menu">
+                <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                <label for="burger-checkbox" class="burger"></label>
+
+                <ul class="menu-list">
+                    <li><div class="burger-logo"> <img src="static/css/Логотип.svg" alt="Logo"> </div></li>
+                    <li><a href="#about-link" class="menu-item">О нас</a></li>
+                    <li><a href="#catalog-link" class="menu-item">Католог</a></li>
+                    <li><a href="#pay-link" class="menu-item">Доставка и оплата</a></li>
+                    <li><a href="#contact-link" class="menu-item">Контакты</a></li>
+                    <li><a href="#partner-link" class="menu-item">Наши партнеры</a></li>
+                    <br>
+                    <br>
+                    <br>
+                    <li> <div class="burger-location">  <p>г. Воронеж<br>Петровская Набережная, 11</p> </div></li>
+                    <br>
+                    <li> <div class="burger-contact">
+                            <p>+7 (777) 777-77-77</p>
+                        </div>
+                    </li>
+                    <li> <div class="burger-social-links">
+                            <a href="#"><img src="static/css/social/burger-instagram.svg" alt="Instagram"></a>
+                            <a href="#"><img src="static/css/social/burger-telegram.svg" alt="WhatsApp"></a>
+                            <a href="#"><img src="static/css/social/burger-whatsapp.svg" alt="Telegram"></a>
+                        </div>
+                    </li>
+                    <br>
+                    <li> <div class="burger-order-button"> <a href="#">сделать заказ</a> </div></li>
+                </ul>
+            </div>
+        <div class="top-bar">
+
+            <!-- меню для ПК  -->
+
+                <div class = "location-social">
+                    <div class="location">
+                        <p>г. Воронеж<br>Петровская Набережная, 11</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><img src="static/css/social/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="static/css/social/whatsapp.svg" alt="WhatsApp"></a>
+                        <a href="#"><img src="static/css/social/telegram.svg" alt="Telegram"></a>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href ="/"><img src="static/css/Логотип.svg" alt="Logo" ></a>
+                </div>
+                <div class="contact">
+                    <p>+7 (777) 777-77-77</p>
+                    <p>Режим 11:00 - 23:00</p>
+                </div>
+                <div class="order-button">
+                    <a href="#">сделать заказ</a>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about-link">О нас</a></li>
+                    <li><a href="#catalog-link">Каталог</a></li>
+                    <li><a href="#pay-link">Доставка и оплата</a></li>
+                    <li><a href="#contact-link">Контакты</a></li>
+                    <li><a href="#partner-link">Наши партнеры</a><li>
+                </ul>
+            </nav>
+    </header>
+    <div class="catalog-water-top">
+        <div class="catalog-water">
+            <a href="#" class="catalog-water-menu-item">Сладкие напитки</a>
+            <a href="#" class="catalog-water-menu-item">Сидры</a>
+            <a href="#" class="catalog-water-menu-item">Компоты</a>
+            <a href="#" class="catalog-water-menu-item">Соки</a>
+            <a href="#" class="catalog-water-menu-item">Чаи</a>
+            <a href="#" class="catalog-water-menu-item">Энергетики</a>
+            <a href="#" class="catalog-water-menu-item">Пиво</a>
+            <a href="#" class="catalog-water-menu-item">Шампанское</a>
+            <a href="#" class="catalog-water-menu-item">Варенья</a>
+            <a href="#" class="catalog-water-menu-item">Джемы</a>
+            <a href="#" class="catalog-water-menu-item">Огурцы и Помидоры</a>
+            <a href="#" class="catalog-water-menu-item">Соленья</a>
+            <a href="#" class="catalog-water-menu-item">Соусы</a>
+            <a href="#" class="catalog-water-menu-item">Сосиски</a>
+            <a href="#" class="catalog-water-menu-item">Сардельки</a>
+            <a href="#" class="catalog-water-menu-item">Колбаса</a>
+            <a href="#" class="catalog-water-menu-item">Ветчина</a>
+            <a href="#" class="catalog-water-menu-item">Сыры</a>
+            <a href="#" class="catalog-water-menu-item">Пельмени</a>
+            <a href="#" class="catalog-water-menu-item">Мясо</a>
+        </div>
+    </div>
+    <div class="products">
+        <div class="product-card">
+            <img src="static/css/water/karmadon-05.svg" alt="Хилак с газом 1,0 л">
+            <div class="product-info">
+                <h3>"Хилак" с газом 1,0 л ПЭТ</h3>
+                <p>минеральная вода с газом, объем 1,0 л, ПЭТ бутылка</p>
+            </div>
+            <div class="price-and-cart">
+                <span class="price">55₽</span>
+                <div class="cart-actions">
+                    <button class="quantity-btn">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn">+</button>
+                    <button class="add-to-cart">В корзину</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="static/css/water/karmadon-05.svg" alt="Хилак с газом 1,0 л">
+            <div class="product-info">
+                <h3>"Хилак" с газом 1,0 л ПЭТ</h3>
+                <p>минеральная вода с газом, объем 1,0 л, ПЭТ бутылка</p>
+            </div>
+            <div class="price-and-cart">
+                <span class="price">55₽</span>
+                <div class="cart-actions">
+                    <button class="quantity-btn">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn">+</button>
+                    <button class="add-to-cart">В корзину</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="static/css/water/karmadon-05.svg" alt="Хилак с газом 1,0 л">
+            <div class="product-info">
+                <h3>"Хилак" с газом 1,0 л ПЭТ</h3>
+                <p>минеральная вода с газом, объем 1,0 л, ПЭТ бутылка</p>
+            </div>
+            <div class="price-and-cart">
+                <span class="price">55₽</span>
+                <div class="cart-actions">
+                    <button class="quantity-btn">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn">+</button>
+                    <button class="add-to-cart">В корзину</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="static/css/water/karmadon-05.svg" alt="Хилак с газом 1,0 л">
+            <div class="product-info">
+                <h3>"Хилак" с газом 1,0 л ПЭТ</h3>
+                <p>минеральная вода с газом, объем 1,0 л, ПЭТ бутылка</p>
+            </div>
+            <div class="price-and-cart">
+                <span class="price">55₽</span>
+                <div class="cart-actions">
+                    <button class="quantity-btn">-</button>
+                    <span class="quantity">1</span>
+                    <button class="quantity-btn">+</button>
+                    <button class="add-to-cart">В корзину</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Добавляйте еще карточки аналогично -->
+    </div>
+
+</body>
+</html>
